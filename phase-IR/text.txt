@@ -1,0 +1,15 @@
+fn int factorial(int n) {
+        if (n <= 1) {
+            return 1;
+        }
+        return n * factorial(n - 1);
+    }
+
+    fn int main() {
+        int x = 5;
+        int result = factorial(x);
+        float y = 3.14;
+        int z = x + 10;
+        z += 5;
+        return result;
+    }
